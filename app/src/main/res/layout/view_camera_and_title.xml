@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp">
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginRight="4dp"
+      >
+
+    <ImageView
+        android:id="@+id/crime_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray"
+        android:cropToPadding="true"
+        />
+    <!--  按比例扩大图片的size居中显示，
+        使得图片长(宽)等于或大于View的长(宽) -->
+    <ImageButton
+        android:id="@+id/crime_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"
+        />
+  </LinearLayout>
+</LinearLayout>

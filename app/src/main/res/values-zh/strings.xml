@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">违规记录表</string>
+    <string name="title_activity_crime">CrimeActivity</string>
+    <string name="crime_title_hint">输入标题.</string>
+    <string name="crime_title_label">标题</string>
+    <string name="crime_details_label">细节</string>
+    <string name="crime_solved_label">是否解决？</string>
+    <string name="crimes_title">Crimes</string>
+    <string name="date_picker_title">选择日期</string>
+    <string name="new_crime">创建记录</string>
+    <string name="show_subtitle">显示记录数</string>
+    <string name="hide_subtitle">隐藏记录数</string>
+    <!--<string name="subtitle_format">%1$d crimes</string>-->
+    <string name="delete_crime">删除记录</string>
+    <string name="no_crime_text">当前没有记录</string>
+    <string name="crime_suspect_text">选择联系人</string>
+    <string name="crime_report_text">发送报告</string>
+    <string name="crime_report">%1$s!
+       违规记录被发现于%2$s.%3$s,%4$s.
+    </string>
+    <string name="crime_report_solved">问题已经被解决</string>
+    <string name="crime_report_unsolved">问题没有被解决</string>
+    <string name="crime_report_no_suspect">没有嫌疑人</string>
+    <string name="crime_report_suspect">嫌疑人是%1$s</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">发送报告的应用</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one"> %d 条</item>
+        <item quantity="other">%d 条</item>
+    </plurals>
+</resources>
